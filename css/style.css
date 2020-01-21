@@ -116,7 +116,7 @@ body {
   display: inline-block;
   border-radius: 50px;
   transition: transform 0.2s;
-  /* backface-visibility: hidden; */
+  backface-visibility: hidden;
 }
 .btn:hover {
   transform: translateY(-3px);
