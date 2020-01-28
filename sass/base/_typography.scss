@@ -51,7 +51,9 @@ body {
 }
 
 .about-text {
-  width: 50%;
+  margin-left: 5rem;
+  padding-right: 5rem;
+  flex: 1;
 }
 
 .heading-teritary {
@@ -62,7 +64,6 @@ body {
 
 .paragraph {
   font-size: $default-font-size;
-  padding-right: 2.5rem;
   text-align: justify;
 
   &:not(:last-child) {

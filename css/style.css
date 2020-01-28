@@ -79,16 +79,17 @@ body {
     text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2); }
 
 .about-text {
-  width: 50%; }
+  margin-left: 5rem;
+  padding-right: 5rem;
+  flex: 1; }
 
 .heading-teritary {
   font-weight: 700;
   text-transform: uppercase;
-  font-size: 1.6rem; }
+  font-size: 1.5rem; }
 
 .paragraph {
-  font-size: 1.6rem;
-  padding-right: 2.5rem;
+  font-size: 1.5rem;
   text-align: justify; }
   .paragraph:not(:last-child) {
     margin-bottom: 3rem; }
@@ -114,7 +115,7 @@ body {
   transition: transform 0.2s;
   backface-visibility: hidden;
   position: relative;
-  font-size: 1.6rem; }
+  font-size: 1.5rem; }
 
 .btn:hover {
   transform: translateY(-3px);
@@ -154,7 +155,7 @@ body {
   display: inline-block;
   border-bottom: 1px solid #55c57a;
   padding: 3px;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   transition: trasnform 0.2s ease; }
 
 .btn-text:hover {
@@ -167,10 +168,47 @@ body {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   transform: translateY(0); }
 
+.composition {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin-left: 1.5rem; }
+  .composition__photo {
+    width: 50%;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
+    border-radius: 2px;
+    position: absolute;
+    z-index: 10;
+    transition: all 0.2s ease;
+    outline-offset: 2rem; }
+    .composition__photo--p1 {
+      top: -2rem;
+      left: 0; }
+    .composition__photo--p2 {
+      top: 2rem;
+      right: 10%; }
+    .composition__photo--p3 {
+      top: 8rem;
+      left: 15%; }
+    .composition__photo:hover {
+      outline: 1.5rem solid #55c57a;
+      transform: scale(1.05) translateY(-0.5rem);
+      box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.5);
+      z-index: 20; }
+  .composition:hover .composition__photo:not(:hover) {
+    transform: scale(0.9); }
+
 .about-flexbox {
   display: flex;
-  width: 114rem;
-  margin: 0 auto; }
+  flex-wrap: wrap;
+  max-width: 114rem;
+  margin: 0 auto;
+  justify-content: center; }
+
+.about-img {
+  flex: 1; }
 
 .header {
   height: 95vh;

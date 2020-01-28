@@ -1,6 +1,11 @@
 .about-flexbox {
   display: flex;
-
-  width: $flexbox-width;
+  flex-wrap: wrap;
+  max-width: $flexbox-width;
   margin: 0 auto;
+  justify-content: center;
+}
+
+.about-img {
+  flex: 1;
 }
