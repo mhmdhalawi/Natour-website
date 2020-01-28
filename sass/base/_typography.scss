@@ -49,3 +49,23 @@ body {
     text-shadow: 0.5rem 1rem 2rem rgba($color-black, 0.2);
   }
 }
+
+.about-text {
+  width: 50%;
+}
+
+.heading-teritary {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: $default-font-size;
+}
+
+.paragraph {
+  font-size: $default-font-size;
+  width: 95%;
+  text-align: justify;
+
+  &:not(:last-child) {
+    margin-bottom: 3rem;
+  }
+}
