@@ -9,3 +9,9 @@
 .about-img {
   flex: 1;
 }
+
+.features-flexbox {
+  display: flex;
+  max-width: $flexbox-width;
+  margin: 0 auto;
+}
