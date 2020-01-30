@@ -1,9 +1,9 @@
 .card {
   perspective: 150rem;
   -moz-perspective: 150rem;
-  flex: 1;
   position: relative;
   height: 52rem;
+  flex: 1;
 
   &__side {
     width: 100%;
