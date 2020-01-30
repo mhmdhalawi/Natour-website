@@ -6,8 +6,7 @@
     padding: 1.5rem 4rem;
     display: inline-block;
     border-radius: 5rem;
-    transition: transform 0.2s;
-    backface-visibility: hidden;
+    transition: all 0.2s;
     position: relative;
     font-size: $default-font-size;
   }
@@ -49,6 +48,18 @@
     }
   }
 
+  &-tour {
+    text-align: center;
+  }
+  &--green {
+    margin-top: 10rem;
+    color: $color-white;
+    background-color: $color-primary;
+    &::after {
+      background-color: $color-primary;
+    }
+  }
+
   &--animated {
     animation: moveInBottom 0.5s ease-out 0.75s backwards;
   }
@@ -63,7 +74,7 @@
     border-bottom: 1px solid $color-primary;
     padding: 3px;
     font-size: $default-font-size;
-    transition: trasnform 0.2s ease;
+    transition: all 0.2s ease;
   }
 
   &:hover {
