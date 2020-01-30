@@ -15,3 +15,10 @@
   max-width: $flexbox-width;
   margin: 0 auto;
 }
+
+.tours-flexbox {
+  display: flex;
+  flex-flow: row wrap;
+  max-width: $flexbox-width;
+  margin: 0 auto;
+}
