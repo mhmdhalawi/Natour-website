@@ -1,0 +1,6 @@
+@mixin flexBox {
+  display: flex;
+  max-width: $flexbox-width;
+  margin: 0 auto;
+  padding: 0 2rem;
+}

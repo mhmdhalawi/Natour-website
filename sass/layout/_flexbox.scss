@@ -12,17 +12,14 @@
 }
 
 .features-flexbox {
-  display: flex;
-  max-width: $flexbox-width;
-  margin: 0 auto;
-  padding: 0 2rem;
+  @include flexBox();
 }
 
 .tours-flexbox {
-  display: flex;
-  flex-flow: row wrap;
-  flex: 1 0;
-  padding: 0 2rem;
-  max-width: $flexbox-width;
-  margin: 0 auto;
+  @include flexBox();
+}
+
+.story-flexbox {
+  @include flexBox();
+  flex-direction: column;
 }
