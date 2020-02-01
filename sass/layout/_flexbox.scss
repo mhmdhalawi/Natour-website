@@ -23,3 +23,7 @@
   @include flexBox();
   flex-direction: column;
 }
+
+.footer-flexbox {
+  @include flexBox();
+}
