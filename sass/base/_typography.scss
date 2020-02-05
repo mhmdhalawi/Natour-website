@@ -74,6 +74,7 @@ body {
 
   @include respond($tab-port) {
     margin-bottom: 6rem;
+    margin-right: 0;
   }
 }
 
