@@ -45,6 +45,10 @@
 .book-row {
   max-width: $flexbox-width;
   margin: 0 auto;
+
+  @include respond($tab-port) {
+    max-width: 50rem;
+  }
 }
 
 .book {
