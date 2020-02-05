@@ -8,6 +8,7 @@
   transition: all 0.3s ease;
   @include respond($tab-port) {
     margin-bottom: 6rem;
+    padding: 2rem;
   }
   &:not(:last-child) {
     margin-right: 5rem;
@@ -28,6 +29,10 @@
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
+
+    @include respond($tab-port) {
+      margin-bottom: 0;
+    }
   }
 
   &:hover {
