@@ -686,7 +686,8 @@ body {
     .footer-flexbox {
       max-width: 50rem;
       display: block;
-      padding: 0 2rem; } }
+      padding: 0 2rem;
+      text-align: center; } }
 
 .footer {
   padding: 10rem 0;
@@ -738,18 +739,19 @@ body {
       @media (max-width: 56.25em) {
         .footer__copyright-box {
           width: 100%;
-          display: block;
-          margin-left: -3rem; } }
+          display: block; } }
       @media (max-width: 37.5em) {
         .footer__copyright-box {
           width: 100%;
-          display: block;
-          margin-left: -3rem; } }
+          display: block; } }
     .footer__copyright-p {
       display: inline-block;
       border-top: 1px solid #777;
       padding-top: 2rem;
       margin-left: 4rem; }
+      @media (max-width: 56.25em) {
+        .footer__copyright-p {
+          margin-left: 0; } }
   .footer__heart {
     color: red; }
 
