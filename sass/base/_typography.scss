@@ -76,6 +76,10 @@ body {
     margin-bottom: 6rem;
     margin-right: 0;
   }
+
+  @media (max-width: 450px) {
+    padding: 0 1rem;
+  }
 }
 
 .heading-teritary {
