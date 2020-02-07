@@ -1010,6 +1010,10 @@ body {
   @media (max-width: 56.25em) {
     .book-row {
       max-width: 50rem; } }
+  @media (max-width: 450px) {
+    .book-row {
+      padding: 0 1rem;
+      margin: 0 auto; } }
 
 .book {
   background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url("../img/nat-10.jpg");
