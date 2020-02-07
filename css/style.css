@@ -110,7 +110,8 @@ body {
       margin-right: 0; } }
   @media (max-width: 450px) {
     .about-text {
-      min-width: 40rem; } }
+      min-width: 40rem;
+      max-width: 40rem; } }
 
 .heading-teritary {
   font-weight: 700;
