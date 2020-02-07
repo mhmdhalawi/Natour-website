@@ -10,6 +10,11 @@
     flex-direction: row;
   }
 
+  @media (max-width: 450px) {
+    padding: 0 1rem 0 2rem;
+    margin: 0;
+  }
+
   &__photo {
     width: 50%;
     box-shadow: 0 1.5rem 4rem rgba($color: #000000, $alpha: 0.4);

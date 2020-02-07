@@ -9,6 +9,10 @@
   @include respond($tab-port) {
     max-width: 50rem;
   }
+
+  @media (max-width: 450px) {
+    width: 100%;
+  }
 }
 
 .about-img {
