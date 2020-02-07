@@ -110,7 +110,7 @@ body {
       margin-right: 0; } }
   @media (max-width: 450px) {
     .about-text {
-      padding: 0 4rem; } }
+      min-width: 40rem; } }
 
 .heading-teritary {
   font-weight: 700;
@@ -699,7 +699,8 @@ body {
   min-width: 46rem; }
   @media (max-width: 56.25em) {
     .about-img {
-      margin-bottom: 6rem; } }
+      margin-bottom: 6rem;
+      min-width: 42rem; } }
 
 .features-flexbox {
   display: flex;
