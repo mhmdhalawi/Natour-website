@@ -108,7 +108,7 @@ body {
     .about-text {
       margin-bottom: 6rem;
       margin-right: 0; } }
-  @media (max-width: 450px) {
+  @media (max-width: 375px) {
     .about-text {
       min-width: 40rem;
       max-width: 40rem; } }
@@ -1012,7 +1012,7 @@ body {
   @media (max-width: 56.25em) {
     .book-row {
       max-width: 50rem; } }
-  @media (max-width: 450px) {
+  @media (max-width: 375px) {
     .book-row {
       padding: 0 1rem;
       margin: 0 auto; } }
