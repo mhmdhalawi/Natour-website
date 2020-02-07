@@ -110,7 +110,7 @@ body {
       margin-right: 0; } }
   @media (max-width: 450px) {
     .about-text {
-      padding: 0 2rem; } }
+      padding: 0 4rem; } }
 
 .heading-teritary {
   font-weight: 700;
@@ -399,7 +399,7 @@ body {
       flex-direction: row; } }
   @media (max-width: 450px) {
     .composition {
-      padding: 0 3rem;
+      padding: 0 4rem;
       margin: 0; } }
   .composition__photo {
     width: 50%;
@@ -819,7 +819,7 @@ body {
   position: relative; }
   @media (max-width: 37.5em) {
     .header {
-      -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+      -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
       clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%); } }
   .header__logo-box {
     position: absolute;
