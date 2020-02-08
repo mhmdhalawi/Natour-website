@@ -196,7 +196,8 @@
   }
 
   //Media Q for Tab-Port
-  @include respond($tab-port) {
+  // @include respond($tab-port) {
+  @media only screen and (max-width: 56.25em), only screen and (hover: none) {
     height: auto;
     width: 100%;
     margin-bottom: 6rem;

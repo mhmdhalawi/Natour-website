@@ -24,3 +24,8 @@ body {
   // padding: 30px;
   box-sizing: border-box;
 }
+
+::selection {
+  background-color: $color-primary;
+  color: $color-white;
+}
